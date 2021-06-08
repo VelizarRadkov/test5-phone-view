@@ -1,0 +1,438 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: #fff;
+}
+.clear{
+    clear: both;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.nav-list{
+    text-align: right;
+}
+.nav-item{
+    list-style: none;
+    margin: 25px;
+}
+.link{
+    text-decoration: none;
+    font-size: 22px;
+    color:#fff;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: relative;
+    padding:3px 0;
+}
+.second-nav{
+    width: 100%;
+    height: 11.3rem;
+    background-color: #111;
+    text-align: center;
+    padding-top: 3.8rem;
+    position: fixed;
+}
+.logo{
+    margin-left: -5rem;
+    font-size: 3rem;
+    color: #fff;
+    background-color: #111;
+    height: 1rem;
+    text-align: center;
+    visibility: visible;  
+    position: fixed;
+}
+footer ul{
+    display: flex;
+    padding-left: 10rem;
+    list-style: none;
+    margin-bottom: 1rem;
+}
+#social-fa{
+    padding-left: 4rem;
+}
+#social-tw{
+    padding-left: 4rem;
+}
+.home{
+    visibility: hidden;
+}
+.about-me{
+    visibility: hidden;
+}
+.contact-me{
+ visibility: hidden;
+}
+.affiliate1 {
+    background-image: url(affiliate/aedrian-2FuhhiWZQbE-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 95%;
+    height: 100px;
+    font-size:4rem;
+    text-align: center;
+    line-height: 100px;
+    margin:10px;
+}
+.affiliate1 a{
+    color:#fff;
+    text-decoration: none;
+}
+.affiliate1 a:hover{
+    color: aqua;
+}
+.affiliate2{
+    background-image: url(affiliate/brooke-cagle-WHWYBmtn3_0-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 95%;
+    height: 100px;
+    font-size:4rem;
+    text-align: center;
+    line-height: 100px;
+    margin:10px;
+}
+.affiliate2 a{
+    color:#fff;
+    text-decoration: none;
+}
+.affiliate2 a:hover{
+    color: aqua;
+}
+.affiliate3{
+    background-image: url(affiliate/jarritos-mexican-soda-lN4vlzUnOIQ-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 95%;
+    height: 100px;
+    font-size:4rem;
+    text-align: center;
+    line-height: 100px;
+    margin:10px;
+}
+.affiliate3 a{
+    color:#fff;
+    text-decoration: none;
+}
+.affiliate3 a:hover{
+    color: aqua;
+}
+.affiliate4{
+    background-image: url(affiliate/jeremy-zero-Xm-3xOkD1QQ-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 95%;
+    height: 100px;
+    font-size:4rem;
+    text-align: center;
+    line-height: 100px;
+    margin:10px;
+}
+.affiliate4 a{
+    color:#fff;
+    text-decoration: none;
+}
+.affiliate4 a:hover{
+    color: aqua;
+}
+.affiliate5{
+    background-image: url(affiliate/martin-katler-zfXbdkYw_V0-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 95%;
+    height: 100px;
+    font-size:4rem;
+    text-align: center;
+    line-height: 100px;
+    margin:10px;
+}
+.affiliate5 a{
+    color:#fff;
+    text-decoration: none;
+}
+.affiliate5 a:hover{
+    color: aqua;
+}
+.affiliate6{
+    background-image: url(affiliate/samara-doole-peaTniZsUQs-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 95%;
+    height: 100px;
+    font-size:4rem;
+    text-align: center;
+    line-height: 100px;
+    margin:10px;
+}
+.affiliate6 a{
+    color:#fff;
+    text-decoration: none;
+}
+.affiliate6 a:hover{
+    color: aqua;
+}
+.nav-des{
+    visibility: hidden;
+}
+@media only screen and (min-width: 1000px){
+.hamburger-menu{
+    visibility: hidden;
+}
+.navbar{
+    visibility: hidden;
+}
+.nav-list-des{
+    display: flex;
+    padding-top: 5.6rem;
+    background-color: #111;
+    padding-left: 10rem;
+    height: 8rem;
+}
+.container{
+    width: 100%;
+    height: 15rem;
+    background-size: cover;
+    background-position: center;
+    padding-top:6rem;
+}
+.second-nav{
+    text-transform: uppercase;
+    height: 15rem;
+    visibility: visible;
+    position: absolute;
+}
+.second-nav a{
+    color:#fff;
+    font-size: 2rem;  
+}
+.second-nav div{
+    width: 100%;
+    text-align: left;
+}
+
+.nav-des{
+    visibility: visible;
+}
+
+.home{
+    padding-top: .7rem;
+    padding-right: 2rem;
+    float:right;
+    visibility: visible;
+}
+.about-me{
+    padding-top: .7rem;
+    padding-right: 2rem;
+    float:right;
+    visibility: visible;
+}
+.contact-me{
+    padding-top: .7rem;
+    padding-right: 10rem;
+    float: right;
+    visibility: visible;
+}
+.logo{
+    font-size: 3rem !important;
+   padding-left: 10rem;
+   position: absolute;
+}
+
+.gallery{
+    padding-left: 20rem;
+}
+.events{
+    padding-left: 20rem;
+}
+.content{
+    padding-left: 20rem;
+}
+.shop{
+    padding-left: 20rem;
+}
+.club{
+    padding-left: 20rem;
+}
+
+hr{
+    visibility: hidden;
+}
+.nav-hr{
+    visibility: visible !important;
+    margin-top: 6.4rem;
+    border: solid #fff;
+    padding:-0.5;
+
+}
+
+
+.wrapper div{
+    float:left;
+    margin-left: 120px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 3rem;
+    margin-top: 80px;
+    border: solid #111;
+}
+footer{
+    border: solid #111;
+  
+}
+
+
+
+.affiliate1 {
+    background-image: url(affiliate/aedrian-2FuhhiWZQbE-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
+    width: calc(10% - 20px);
+    height: 100px;
+    
+}
+.affiliate1 a{
+    color:#fff;
+    text-decoration: none;
+}
+.affiliate1 a:hover{
+    color: aqua;
+}
+.affiliate2{
+    background-image: url(affiliate/brooke-cagle-WHWYBmtn3_0-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
+    width: calc(10% - 20px);
+    height: 100px;
+    background-color: #f2f2f2;
+}
+.affiliate2 a{
+    color:#fff;
+    text-decoration: none;
+}
+.affiliate2 a:hover{
+    color: aqua;
+}
+.affiliate3{
+    background-image: url(affiliate/jarritos-mexican-soda-lN4vlzUnOIQ-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
+    width: calc(10% - 20px);
+    height: 100px;
+    background-color: #f2f2f2;
+}
+.affiliate3 a{
+    color:#fff;
+    text-decoration: none;
+}
+.affiliate3 a:hover{
+    color: aqua;
+}
+.affiliate4{
+    background-image: url(affiliate/jeremy-zero-Xm-3xOkD1QQ-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
+    width: calc(10% - 20px);
+    height: 100px;
+    background-color: #f2f2f2;
+}
+.affiliate4 a{
+    color:#fff;
+    text-decoration: none;
+}
+.affiliate4 a:hover{
+    color: aqua;
+}
+.affiliate5{
+    background-image: url(affiliate/martin-katler-zfXbdkYw_V0-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
+    width: calc(10% - 20px);
+    height: 100px;
+    background-color: #f2f2f2;
+}
+.affiliate5 a{
+    color:#fff;
+    text-decoration: none;
+}
+.affiliate5 a:hover{
+    color: aqua;
+}
+.affiliate6{
+    background-image: url(affiliate/samara-doole-peaTniZsUQs-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
+    width: calc(10% - 20px);
+    height: 100px;
+    background-color: #f2f2f2;
+}
+.affiliate6 a{
+    color:#fff;
+    text-decoration: none;
+}
+.affiliate6 a:hover{
+    color: aqua;
+}
+
+footer ul{
+    float:left;
+    padding-left: 86.5rem;
+}
+.header-about{
+    display: block;
+    width: 100%;
+    font-size: 2rem;
+    padding:2rem 5rem;
+    top: 50px;
+    height: 9rem;
+    float: left;
+    border: solid #111;
+}
+.first-image{
+    width: 28%;
+    display: block;
+    padding: 10rem 0 1rem 13.2rem;
+    height: 60rem;
+    margin-bottom: 1rem;
+}
+.lore1{
+    
+    width: 58%;
+    display: flex;
+    font-size: 3rem;
+    margin-top: -40rem;
+    float: right;
+    padding-right: 5rem;
+}
+.lore2{
+    
+    text-align: right;
+    padding-top: 10rem;
+    padding-left: 6rem;
+    width: 38%;
+    height: 55rem;
+    font-size: 3rem;
+    margin-left: 1rem;
+    
+}
+.second-image{
+    width: 58%;
+    height: 55rem;
+    padding-top: 1rem;
+    float: right;
+    margin-top: -55rem;
+}
+
+
+}
